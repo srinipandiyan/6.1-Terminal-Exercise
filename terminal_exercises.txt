@@ -1,0 +1,66 @@
+### ****Part I****
+
+1. make a directory called ***first***
+    `mkdir first`
+
+2. change directory to the ***first*** folder
+    `cd first`
+
+3. create a file called ***person.txt***
+    `touch person.txt`
+
+4. change the name of ***person.txt*** to ***another.txt***
+    `mv person.txt another.txt`
+
+5. make a copy of the ***another.txt*** file and call it ***copy.txt***
+    `cp another.txt copy.txt`
+
+6. remove the ***copy.txt*** file
+    `rm copy.txt`
+
+7. make a copy of the ***first*** folder and call it ***second***
+    `cd ..
+    cp -r first second`
+
+8. delete the ***second*** folder
+    `rm -rf second`
+
+### ****Part II****
+
+1. What does the ***man*** command do? Type in ***man rm***. How do you scroll and get out?
+    The `man` command is short for manuel and provides documentation for terminal command.
+    Scrolling can be accomplished using the up and down arrows keys for vertical scrolling (left and right arrows allow for horizonal scrolling).
+    Getting out of the manuel is accomplished with the 'Q' key.
+
+2. Look at the ***man*** page for ***ls***. What does the ***-l*** flag do? What does the ***-a*** flag do?
+    The `-l` flag lists files in long format with the file mode, number of links, owner name, group name, number of bytes in the file, abbreviated month,
+    day-of-month file was last modified, hour file last modified, minute file last modified, and the pathname displayed as the output.
+    The `-a` flag will include entries that begin with a dot '.' ie. hidden directories or files.
+
+3. How do you jump between words in the terminal?
+    Press the "option" + "left" or "right" arrow keys.
+
+4. How do you get to the end of a line in terminal?
+    Press "control" + "e".
+
+5. How do you move your cursor to the beginning in terminal?
+    Press "control" + "a".
+
+6. How do you delete a word (without pressing backspace multiple times) in terminal?
+    Press "control" + "w" to delete the word immediately left of the cursor.
+
+7. What is the difference between a terminal and shell?
+    The terminal is the interface that accepts commands and displays outputs.
+    The shell is the software that interprets and runs the commands and returns an output.
+
+8. What is an absolute path?
+    The absolute path specifies the entire pathway to a file or directory from the root.
+
+9. What is an relative path?
+    The relative path specifies the pathway to a file or directory in relation to the working directory.
+
+10. What is a flag? Give three examples of flags you have used.
+    A flag is a command modifier and provides additonal options of execution to the usual command, examples in this lesson include the `-l`, `-a`, and `-rf` flags.
+
+11. What do the ***r*** and ***f*** flags do with the ***rm*** command?
+    In the `rm` command, the `-r` and `-f` flags attempt to remove the file hierarchy rooted in each file argument and remove the files without prompting for confirmation, respectively.
